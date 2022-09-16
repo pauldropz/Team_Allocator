@@ -8,11 +8,11 @@ import Footer from "./Footer"
 
 function App() {
   return (
-    <>
-    
-        TEAM ALLOCATION MEMBER
-    
-    </>
+   <div>
+      <Header/>
+      <Content/>
+      <Footer/>
+   </div>>
   );
 }
 
