@@ -1,8 +1,5 @@
 import React from "react";
-
 import "./App.css";
-
-import Header from "./Header";
 
 
 
@@ -10,10 +7,11 @@ import Header from "./Header";
 const Header = () => {
 
     return (
-            <Header>
-            <Header/>     
-            </Header>
+            <div>
 
+                     <h1>Header</h1>
+
+         </div>
     );
 }
 export default Header
