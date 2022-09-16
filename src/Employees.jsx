@@ -1,9 +1,17 @@
 import React from "react";
+import { useState } from "react";
+
+
 
 const Employee = () => {
     return (
 
-            <h1>Employee</h1>
+           <main>
+
+
+
+
+           </main>
 
 
     );
