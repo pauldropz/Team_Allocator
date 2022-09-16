@@ -8,7 +8,10 @@ const Employee = () => {
 
            <main>
 
+                    <div>
 
+                        <h2></h2>
+                    </div>
 
 
            </main>
