@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./Header";
 import Content from "./Content";
 import Footer from "./Footer";
-
+import Employee from "./Employees";
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
          <Header/>
          <Content/>
          <Footer/>
+         <Employee/>
    </div>
   );
 }
