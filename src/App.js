@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     
-        Mind gamesgit
+        TEAM ALLOCATION MEMBER
     
     </>
   );
