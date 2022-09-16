@@ -11,15 +11,8 @@ const Header = () => {
 
     return (
             <Header>
-
-
-            <Header/>
-
-                
+            <Header/>     
             </Header>
-
-
-
 
     );
 }
