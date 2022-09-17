@@ -46,7 +46,11 @@ const Employees = () => {
                 
                 {
 >
-                    employees.map (employee) =>
+                    employees.map (employee) => (
+
+                        <p>{ employee.fullName }</p>
+                        <img src= { female }/>
+                        )
 
                 }
 
