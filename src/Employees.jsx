@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 
-const Employees = () => {
+const employees = () => {
             const [ Employees, setEmployees ] = useState ([
 
                 { id:1, fullName: "Paul Dropz", designation: "Web-Developer", gender: "male", teamName: "Team7"},
@@ -19,11 +19,11 @@ const Employees = () => {
 
            <main>
                 <div>
-                    employees.map(employee) => (
-                        <p>(employee.fullName)</p>
-                        <p>(employee.designation)</p>
-                       
-                    )
+                    Employees.map = ("Employees") =>   {
+                     (
+                            <p>Employees.fullName</p>
+                        )
+                    }      
 
                 </div>
             
@@ -38,4 +38,4 @@ const Employees = () => {
 }
 
 
-export default Employees
+export default employees
