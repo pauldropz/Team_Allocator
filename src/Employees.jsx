@@ -3,13 +3,14 @@ import { useState } from "react";
 
 
 
-const Employees = () => {
+const Employee = () => {
             const [ Employees, setEmployees ] = useState ([
 
-                { id:1, fullName: "Paul Dropz", designation: "Web-Developer", gender: "male", teamName: "TeamA"},
-                { id:2, fullName: "Yelton Athanasius", designation: "Data Scientist", gender: "Male", teamName: "TeamC"},
-                { id:2, fullName: "Yelton Athanasius", designation: "Data Scientist", gender: "Male", teamName: "TeamC"}
-,
+                { id:1, fullName: "Paul Dropz", designation: "Web-Developer", gender: "male", teamName: "Team7"},
+                { id:2, fullName: "Yelton Athanasius", designation: "Data Scientist", gender: "Male", teamName: "Team5"},
+                { id:3, fullName: "Suleiman Shehu", designation: "Animation", gender: "Male", teamName: "Team7"},
+                { id:4, fullName: "Mitsuki Orochimaro", designation: "Data Scientist", gender: "Male", teamName: "Team5"},
+                { id:5, fullName: "White Sage", designation: "generator mofo", gender: "Male", teamName: "Team7"},
 
 
                                     ]);
@@ -30,4 +31,4 @@ const Employees = () => {
 }
 
 
-export default Employees
+export default Employee
