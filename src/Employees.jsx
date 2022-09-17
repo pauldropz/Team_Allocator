@@ -3,8 +3,8 @@ import { useState } from "react";
 
 
 
-const Employee = () => {
-            const [ employees, setEmployees ] = useState ([
+const Employees = () => {
+            const [ Employees, setEmployees ] = useState ([
 
                 { id:1, fullName: "Paul Dropz", designation: "Web-Developer", gender: "male", teamName: "TeamA"},
                 { id:2, fullName: "Yelton Athanasius", designation: "Data Scientist", gender: "Male", teamName: "TeamC"},
@@ -18,12 +18,7 @@ const Employee = () => {
 
            <main>
 
-                    <div>
-
-
-
-                    </div>
-
+            
 
            </main>
 
@@ -35,4 +30,4 @@ const Employee = () => {
 }
 
 
-export default Employee
+export default Employees
