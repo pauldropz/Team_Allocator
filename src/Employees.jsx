@@ -8,8 +8,15 @@ import male from "./images/male.jpg;"
 const Employees = () => {
             const [ employees, setEmployees ] = useState ([
 
-                { id:1, fullName: "Paul Dropz", designation: "$ world", gender: "male", teamName: "Team7"},
-                { id:2, fullName: "Kabuto Sama", designation: "$ world", gender: "Male", teamName: "Team7"},
+            {   id:1,
+                    fullName: "Paul Dropz", 
+                    designation: "$ world",
+                    gender: "male", 
+                    teamName: "Team7"
+            },
+               
+            
+            { id:2, fullName: "Kabuto Sama", designation: "$ world", gender: "Male", teamName: "Team7"},
                 { id:3, fullName: "Orochimaru Sama", designation: "$ world", gender: "Male", teamName: "Team7"},
                 { id:4, fullName: "Mitsuki Orochimaro", designation: "$ world", gender: "Male", teamName: "Team7"},
                 { id:5, fullName: "White Sage", designation: "$ world", gender: "Male", teamName: "Team7"},
@@ -36,11 +43,12 @@ const Employees = () => {
     return (
 
            <main>
-                <div>
-                    Employees.map { Employees }
-                    
-                </div>
-            
+                
+                {
+>
+                    employees.map (employee) =>
+
+                }
 
            </main>
 
