@@ -7,7 +7,11 @@ const Employee = () => {
             const [ employees, setEmployees ] = useState ([
 
                 { id:1, fullName: "Paul Dropz", designation: "Web-Developer", gender: "male", teamName: "TeamA"},
+                { id:2, fullName: "Yelton Athanasius", designation: "Data Scientist", gender: "Male", teamName: "TeamC"},
                 { id:2, fullName: "Yelton Athanasius", designation: "Data Scientist", gender: "Male", teamName: "TeamC"}
+,
+
+
                                     ]);
 
     return (
