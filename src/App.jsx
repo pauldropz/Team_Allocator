@@ -12,7 +12,8 @@ function App() {
          <Header/>
          <Content/>
          <Footer/>
-         <Employee/>
+         <Employees/>
+
    </div>
   );
 }
