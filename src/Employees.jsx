@@ -37,11 +37,11 @@ const Employees = () => {
                 
 
                                     ]);
-
+console.log (Employees.fullName);
     return (
 
            <main>
-                
+                { Employees }
             
                 
 
