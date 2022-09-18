@@ -1,7 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import female from "./images/female.png";
-import male from "./images/male.jpg;" 
 
 
 
@@ -44,15 +42,8 @@ const Employees = () => {
 
            <main>
                 
-                {
->
-                    employees.map (employee) => (
-
-                        <p>{ employee.fullName }</p>
-                        <img src= { female }/>
-                        )
-
-                }
+            
+                
 
            </main>
 
