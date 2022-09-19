@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import App from "./App";
 
 
 
@@ -41,7 +42,10 @@ console.log (Employees.fullName);
     return (
 
            <main>
-                { Employees }
+                employees.map((employees) = (
+
+                    <p>  { Employees.fullName }  </p>
+                ))
             
                   
 
